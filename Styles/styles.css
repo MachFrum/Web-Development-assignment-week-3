@@ -1,0 +1,35 @@
+body {
+    background-color: #524c4c; /* Not quie Black */
+    font-family: "Helvetica Neue", "Poppins", "Segoe UI", sans-serif; /* Font Families the website can fallback into */
+}
+
+/* My un-ordered list of dad jokes. */
+.dad-jokes{
+
+    background-color: rgb(72, 60, 78);
+    color: #D4AF37; /* Gold text example */
+    /* color:rgba(245, 247, 243, 0.952); */
+    font-size: 18px;
+}
+
+.dad-jokes ul li {
+    padding-bottom: 10px; /* Inside spacing */
+    margin-bottom: 15px;  /* Outside spacing */
+    list-style-type: square; /* changes bullet points */
+}
+
+/* Class Selector (Images from pexels) */
+.pexeled-image {
+    width: 480px;
+    height: 300px;
+    border: 5px solid rgb(248, 159, 159);
+    border-radius: 10px;
+    margin: auto;
+}
+
+/* ID Selector */
+#footer {
+    text-align: center;
+    color: rgb(178, 235, 98);
+    font-family: "Arial", sans-serif;
+}
